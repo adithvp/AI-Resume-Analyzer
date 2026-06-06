@@ -122,7 +122,7 @@ async def analyze_resume(
         llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
             temperature=0.1,
-            google_api_key="AQ.Ab8RN6L6EFQOvAcOjFCg1aviWx0ccilDTKMEa_WA-QjBSbOQVw"
+            google_api_key="paste_your_api_key_here"
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to initialize Gemini LLM: {str(e)}")
