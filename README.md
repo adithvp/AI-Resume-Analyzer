@@ -52,7 +52,7 @@ The **AI Resume Intelligence Platform** is a premium, responsive SaaS web applic
    ```bash
    npm run dev
    ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [http://localhost in your browser.
 
 ---
 
@@ -91,6 +91,6 @@ To utilize live resume parsing via Gemini (instead of the pre-loaded mock analys
    ```bash
    python main.py
    ```
-   The backend API will start running at `http://localhost:8000`.
+   The backend API will start running at `http://localhost`.
 
 *Note: The frontend is configured to automatically detect the backend on port 8000. If the server is offline or fails to connect, the application will fallback to standard mock datasets for seamless demonstration.*
